@@ -36,20 +36,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-@media screen and (min-width: 768px) {
-  .lead__title {
-    font-size: 96px;
-    line-height: 1;
-  }
-}
-
-@media screen and (min-width: 620px) {
-  .page {
-    background-color: green;
-  }
-
-  .lead__title {
-    font-size: 96px;
-  }
-}
