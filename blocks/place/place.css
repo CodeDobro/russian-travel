@@ -1,4 +1,14 @@
 .place {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 0 0 50px 0;
+
+}
+
+@media (min-width: 768px) {
+  .place {
+    grid-template-columns: 2fr 3fr;
+    margin: 0 0 73px 0;
+  }
 }
