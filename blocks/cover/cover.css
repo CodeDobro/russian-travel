@@ -10,6 +10,7 @@
   background-size: cover;
   font-family: Inter, Arial, sans-serif;
   z-index: 1;
+
 }
 
  .cover:after {
@@ -23,6 +24,7 @@
   top: 0;
   content: "";
   z-index: -1;
+  transition: opacity 0.2s linear;
 }
 
  .cover:hover:after {
