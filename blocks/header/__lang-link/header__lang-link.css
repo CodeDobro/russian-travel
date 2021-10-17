@@ -3,6 +3,7 @@
   line-height: 1.1;
   color: white;
   margin-right: 18px;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {

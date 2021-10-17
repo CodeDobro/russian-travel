@@ -1,10 +1,7 @@
 .lead {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0; */
   display: grid;
   grid-template-columns: repeat(1, 100%);
   grid-template-rows: auto;
   max-width: 984px;
+  font-family: Inter, Arial, sans-serif;
 }

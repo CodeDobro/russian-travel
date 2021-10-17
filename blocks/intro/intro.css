@@ -1,8 +1,20 @@
 .intro {
   display: flex;
   flex-direction: column;
+  font-family: Inter, Arial, sans-serif;
   width: calc(100% - 32px);
   max-width: 984px;
 }
 
+@media (min-width: 768px) {
+  .intro {
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    width: calc(100% - 48px * 2);
+  }
+}
 
