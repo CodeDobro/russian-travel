@@ -13,7 +13,7 @@
 
 }
 
- .cover:after {
+.cover:after {
   display: block;
   position: absolute;
   background-color: #2A2C2F;
@@ -27,24 +27,24 @@
   transition: opacity 0.2s linear;
 }
 
- .cover:hover:after {
-   opacity: 30%;
- }
+.cover:hover:after {
+  opacity: 80%;
+}
 
- @media (min-width: 768px) {
-   .cover {
-    min-height: 480px;
-   }
- }
-
- @media (min-width: 1024px) {
+@media (min-width: 768px) {
   .cover {
-   min-height: 640px;
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    min-height: 640px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover {
-   min-height: 740px;
+    min-height: 740px;
   }
 }
