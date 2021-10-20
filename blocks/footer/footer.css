@@ -1,7 +1,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 100%;
+  max-width: 1184px;
   font-family: Inter, Arial, sans-serif;
   margin: 64px 0 24px 0;
 }
@@ -11,5 +12,11 @@
     flex-direction: initial;
     justify-content: space-between;
     margin: 88px 0 24px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin: 92px 0 24px 0;
   }
 }

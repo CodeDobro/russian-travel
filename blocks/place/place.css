@@ -9,7 +9,26 @@
 
 @media (min-width: 768px) {
   .place {
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1.92fr 40px 2fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
     margin: 0 0 73px 0;
+    max-height: 484px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    margin: 0 0 80px 0;
+    max-height: 640px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    max-height: 660px;
+  }
+
+  .place:last-child {
+    margin: 0;
   }
 }

@@ -4,6 +4,7 @@
   line-height: 1.4;
   color: white;
   margin: 8px 16px 0;
+  letter-spacing: 0.15em;
 }
 
 @media (min-width: 1024px) {
