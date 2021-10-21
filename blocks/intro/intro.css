@@ -9,12 +9,13 @@
 @media (min-width: 768px) {
   .intro {
     width: calc(100% - 24px * 2);
+    margin-top: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
     width: calc(100% - 48px * 2);
+    margin-top: 92px;
   }
 }
-

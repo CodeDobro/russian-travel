@@ -9,13 +9,13 @@
 @media (min-width: 768px) {
   .places {
     width: calc(100% - 48px);
-    margin-top: 88px;
+    margin-top: 92px;
   }
 }
 
 @media (min-width: 1024px) {
   .places {
     width: calc(100% - 48px * 2);
-    margin-top: 92px;
+    margin-top: 94px;
   }
 }

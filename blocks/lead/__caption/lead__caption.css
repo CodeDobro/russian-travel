@@ -7,6 +7,12 @@
   letter-spacing: 0.15em;
 }
 
+@media (min-width: 768px) {
+  .lead__caption {
+    margin: 6px 0 0 24px;
+  }
+}
+
 @media (min-width: 1024px) {
   .lead__caption {
     margin: 8px 0 0 0;

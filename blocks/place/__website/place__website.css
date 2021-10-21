@@ -5,8 +5,22 @@
 @media (min-width: 768px) {
   .place__website {
     align-self: end;
-    margin: 0 0 48px 0;
+    margin: 0 0 44px 0;
+    padding-bottom: 3px;
     grid-column: 3;
     grid-row: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__website {
+    margin: 0 0 44px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__website {
+    max-height: 46px;
+    margin: 0 0 48px 0;
   }
 }

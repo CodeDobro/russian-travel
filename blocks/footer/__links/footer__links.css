@@ -10,5 +10,18 @@
   .footer__links {
     flex-direction: initial;
     margin: 0;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__links {
+    padding-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__links {
+    padding: 0;
   }
 }

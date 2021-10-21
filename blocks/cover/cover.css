@@ -34,18 +34,19 @@
 @media (min-width: 768px) {
   .cover {
     min-height: 480px;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
     min-height: 640px;
+    margin-top: 92px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover {
     min-height: 740px;
-    margin-top: 92px;
   }
 }

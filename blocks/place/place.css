@@ -9,26 +9,28 @@
 
 @media (min-width: 768px) {
   .place {
-    grid-template-columns: 1.92fr 40px 2fr;
+    grid-template-columns: 1.94fr 28px 2fr;
     grid-template-rows: repeat(auto-fit, 1fr);
-    margin: 0 0 73px 0;
-    max-height: 484px;
+    margin: 0 0 72px 0;
+    max-height: 581px;
+  }
+
+  .place:last-child {
+    margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .place {
-    margin: 0 0 80px 0;
+    grid-template-columns: 1.93fr 32px 2fr;
+    margin: 0 0 81px 0;
     max-height: 640px;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
+    grid-template-columns: 1.92fr 40px 2fr;
     max-height: 660px;
-  }
-
-  .place:last-child {
-    margin: 0;
   }
 }

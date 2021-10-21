@@ -11,6 +11,7 @@
 
 @media (min-width: 768px) {
   .photo-grid {
+    gap: 16px;
     width: calc(100% - 48px);
     grid-template-columns: repeat(2, auto);
   }
@@ -26,6 +27,5 @@
 @media (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(4, auto);
-    gap: 16px;
   }
 }
