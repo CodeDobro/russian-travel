@@ -19,13 +19,11 @@
 @media (min-width: 1024px) {
   .header__logo {
     padding-left: 48px;
-    height: 52px;
   }
 }
 
 @media (min-width: 1280px) {
   .header__logo {
     padding: 0;
-    height: 52px;
   }
 }

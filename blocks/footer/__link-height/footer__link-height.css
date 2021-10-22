@@ -1,0 +1,7 @@
+.footer__link-height {
+  margin-bottom: 32px;
+}
+
+.footer__link-height:last-child {
+  margin: 0;
+}

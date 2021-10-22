@@ -4,10 +4,8 @@
   font-weight: 900;
   text-align: center;
   color: white;
-
   margin: 0 auto 16px;
 }
-
 
 @media (min-width: 768px) {
   .lead__title {

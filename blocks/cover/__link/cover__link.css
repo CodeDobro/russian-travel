@@ -5,21 +5,3 @@
   text-decoration: none;
   min-height: 200px;
 }
-
-@media (min-width: 768px) {
-  .cover__link {
-    min-height: 480px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__link {
-    min-height: 640px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .cover__link {
-    min-height: 740px;
-  }
-}

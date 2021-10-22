@@ -20,7 +20,6 @@
 
 @media (min-width: 1280px) {
   .place__website {
-    max-height: 46px;
     margin: 0 0 48px 0;
   }
 }
