@@ -4,7 +4,10 @@
   grid-template-rows: auto;
   margin: 0 0 50px 0;
   font-family: Inter, Arial, sans-serif;
+}
 
+.place:last-child {
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -12,10 +15,6 @@
     grid-template-columns: 1.94fr 28px 2fr;
     grid-template-rows: repeat(auto-fit, 1fr);
     margin: 0 0 72px 0;
-  }
-
-  .place:last-child {
-    margin: 0;
   }
 }
 

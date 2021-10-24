@@ -19,6 +19,6 @@
 
 @media (min-width: 1024px) {
   .footer__links {
-    padding-left: 48px;
+    padding-left: 0;
   }
 }
