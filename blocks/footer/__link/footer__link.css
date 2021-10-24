@@ -9,7 +9,7 @@
 @media (min-width: 768px) {
   .footer__link {
     font-size: 16px;
-    line-height: 1.125;
+    line-height: 18px;
     margin-right: 18px;
   }
 }
